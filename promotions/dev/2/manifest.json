@@ -1,0 +1,20 @@
+{
+ "promotion_id": 2,
+ "source_env": "dev",
+ "source_workflow_id": 2772,
+ "source_workflow_name": "워크플로우 카나리",
+ "target_workflow_name": "워크플로우 카나리",
+ "artifact_checksum": "90481deaef9e1491429887d49ce496da51ca873b4f593ddd111ced4651593c1d",
+ "reason": "11221212",
+ "requested_at": "2026-07-28 16:41:30",
+ "resource_mapping": null,
+ "execution_spec": {
+  "docker_image": "llmops-workflow-api:latest",
+  "instance_type": "smicro",
+  "replicas": 1,
+  "max_queue_size": 100,
+  "max_concurrency": 10,
+  "is_multi_node_enabled": false,
+  "envs": []
+ }
+}
