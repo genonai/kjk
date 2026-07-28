@@ -1,0 +1,20 @@
+{
+ "promotion_id": 3,
+ "source_env": "dev",
+ "source_workflow_id": 2777,
+ "source_workflow_name": "워크플로우 이관",
+ "target_workflow_name": "워크플로우 이관",
+ "artifact_checksum": "3ac2ba646999a5065cc32e4cfa55269b50bc2c66de6cf06f0a0aef10f147c598",
+ "reason": "1231231231",
+ "requested_at": "2026-07-28 18:47:11",
+ "resource_mapping": null,
+ "execution_spec": {
+  "docker_image": "llmops-workflow-api:latest",
+  "instance_type": "smicro",
+  "replicas": 1,
+  "max_queue_size": 100,
+  "max_concurrency": 10,
+  "is_multi_node_enabled": false,
+  "envs": []
+ }
+}
