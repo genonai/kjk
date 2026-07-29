@@ -1,0 +1,36 @@
+{
+ "promotion_id": 4,
+ "source_env": "qa",
+ "source_workflow_id": 3016,
+ "source_workflow_name": "이관 test입니다",
+ "target_workflow_name": "이관 test입니다",
+ "artifact_checksum": "1bf4daf9b0960686823a614906000cf783ab2ab4eebee7af2646da4cc97d4a25",
+ "reason": "12121212",
+ "requested_at": "2026-07-29 18:09:21",
+ "resource_mapping": null,
+ "resource_refs": {
+  "serving": [
+   "3",
+   "760"
+  ],
+  "vdb": [
+   "1934"
+  ],
+  "mcp": [],
+  "service_router": [],
+  "credential": [],
+  "serving_revision": [],
+  "weaviate_index": [
+   "Simple_RAG_260722_185223_7"
+  ]
+ },
+ "execution_spec": {
+  "docker_image": "llmops-workflow-api:latest",
+  "instance_type": "micro",
+  "replicas": 1,
+  "max_queue_size": 100,
+  "max_concurrency": 10,
+  "is_multi_node_enabled": false,
+  "envs": []
+ }
+}
